@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         double n1, n2;
@@ -27,7 +28,7 @@ public class Main {
                     System.out.println("Multiplicação = " + (n1 * n2));
                     break;
                 case 4:
-                    if (n2==0)
+                    if (n2 == 0)
                         System.out.println("NÃO FOI POSSÍVEL REALIZAR A OPERAÇÃO");
                     else {
                         System.out.println("Divisão = " + (n1 / n2));
